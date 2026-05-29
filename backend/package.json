@@ -1,0 +1,31 @@
+{
+  "name": "doceria-gourmet-ianes",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de estoque de doces da Doceria Gourmet IANES",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback"
+  },
+  "keywords": [
+    "doceria",
+    "estoque",
+    "api",
+    "express",
+    "knex"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^3.1.0",
+    "mysql2": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
