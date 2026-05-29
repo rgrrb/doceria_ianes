@@ -1,8 +1,6 @@
 # Doceria Gourmet IANES - API
 
-
-https://github.com/rgrrb/doceria_ianes/blob/main/doc/tempo.png
-
+<img width="1297" height="511" alt="tempo" src="https://github.com/user-attachments/assets/92b4f858-f9da-477b-b43e-2bff31f24579" />
 
 
 API REST para gerenciamento de estoque de doces, autenticação de funcionários e controle de descarte de produtos.
